@@ -39,4 +39,17 @@ public class BoletoModel implements Serializable {
     protected String codRetorno;
     protected String mensagemRetorno;
 
+    private Long numeroConvenio;
+    private Integer numeroCarteira;
+    private Integer numeroVariacaoCarteira;
+    private Integer codigoModalidade;
+    private String codigoAceite;
+    private Integer codigoTipoTituloCobranca;
+    private String indicadorPermissaoRecebimentoParcial;
+    private String numeroTituloBeneficiario;
+    private String numeroTituloCliente;
+    private String linhaDigitavel;
+    private Long codigoCliente;
+    private Long numeroContratoCobranca;
+
 }

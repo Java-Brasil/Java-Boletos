@@ -8,6 +8,8 @@ import org.apache.commons.lang3.StringUtils;
 @Setter
 public class Pagador {
 
+    private Integer tipoInscricao;
+    private Long numeroInscricao;
     private String nome;
     private String codigo;
     private String documento;
