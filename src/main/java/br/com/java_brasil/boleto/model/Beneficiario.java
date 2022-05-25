@@ -24,4 +24,5 @@ public class Beneficiario implements Serializable {
     private Endereco endereco;
 
     private String numeroConvenio;
+
 }

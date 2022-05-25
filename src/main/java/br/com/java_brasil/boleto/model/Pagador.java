@@ -14,6 +14,9 @@ public class Pagador {
     private String email;
     private Endereco endereco;
 
+    private String ddd;
+    private String telefone;
+
     public boolean isClienteCpf() {
         return StringUtils.isNotBlank(documento) && documento.length() <= 11;
     }
