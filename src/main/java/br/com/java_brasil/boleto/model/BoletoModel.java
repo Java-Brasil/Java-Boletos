@@ -38,5 +38,6 @@ public class BoletoModel implements Serializable {
     protected String codigoBarras;
     protected String codRetorno;
     protected String mensagemRetorno;
+    protected String urlPdf;
 
 }
